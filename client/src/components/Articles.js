@@ -18,6 +18,7 @@ class Article extends Component {
                 Test
                 <h1>Test</h1>
                 blah
+                blah
             </div>
         )
     }
