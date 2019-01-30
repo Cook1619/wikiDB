@@ -5,13 +5,14 @@
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "cors": "^2.8.5",
     "ejs": "^2.6.1",
+    "express": "^4.16.4",
     "mongoose": "^5.4.7"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server/app.js"
   },
   "author": "",
   "license": "ISC"
